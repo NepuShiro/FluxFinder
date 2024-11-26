@@ -9,10 +9,9 @@ namespace FluxFinder
 {
 	public class FluxFinder : ResoniteMod
 	{
-		internal const string VERSION_CONSTANT = "1.0.0";
 		public override string Name => "FluxFinder";
 		public override string Author => "NepuShiro";
-		public override string Version => VERSION_CONSTANT;
+		public override string Version => "1.0.0";
 		public override string Link => "https://github.com/NepuShiro/FluxFinder/";
 
 		[AutoRegisterConfigKey]
@@ -31,7 +30,7 @@ namespace FluxFinder
 			config = GetConfiguration();
 			config.Save(true);
 
-			Harmony harmony = new("com.NepuShiro.FluxFinder");
+			Harmony harmony = new("net.NepuShiro.FluxFinder");
 			harmony.PatchAll();
 		}
 
