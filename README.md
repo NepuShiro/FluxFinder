@@ -1,4 +1,4 @@
-# ExampleMod
+# FluxFinder
 
 A [ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader) mod for [Resonite](https://resonite.com/) that exposes the Flux Tip's hovered color as a Dynamic Variable.
 
