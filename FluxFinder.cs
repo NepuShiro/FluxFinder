@@ -34,7 +34,6 @@ namespace FluxFinder
         private class ProtoFluxToolPatch
         {
             private static Slot _fluxFinderSlot;
-            private static colorX _oldColor;
 
             [HarmonyPrefix, HarmonyPatch("OnEquipped")]
             private static void OnEquippedPatch(ProtoFluxTool __instance)
