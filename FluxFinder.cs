@@ -10,7 +10,7 @@ namespace FluxFinder
     {
         public override string Name => "FluxFinder";
         public override string Author => "NepuShiro";
-        public override string Version => "1.0.0";
+        public override string Version => "1.0.1";
         public override string Link => "https://github.com/NepuShiro/FluxFinder/";
 
         [AutoRegisterConfigKey] private static ModConfigurationKey<bool> ENABLED = new ModConfigurationKey<bool>("enabled", "Should FluxFinder be Enabled?", () => true);
